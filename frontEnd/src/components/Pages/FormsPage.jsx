@@ -11,7 +11,7 @@ function FormsPage() {
       <form onSubmit={handleSubmit((data)=>console.log(data))} className=" bg-primary ring-4 ">
         
         {/* <CourseForm register={register}/> */}
-       <SyllabusForm />
+       <SyllabusForm register={register} control={control} />
         
       
      
